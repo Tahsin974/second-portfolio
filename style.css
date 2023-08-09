@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url(images\ \(2\)\ \(1\).jpeg);
+    background-position: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.green-color {
+    color: green;
+}
+
+.half-width img {
+    width: 80%;
+
+
+}
+
+.half-width {
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 50%;
+
+    color: aliceblue;
+
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.Job-Area {
+    color: aliceblue;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.Job-Items {
+    width: 40%;
+    margin: 2% 2%;
+    padding: 5px 5px;
+    border: 1px solid gray;
+}
+
+.Job-Items:hover {
+    box-shadow: 10px 10px 50px gray;
+
+}
+
+footer p {
+    text-align: center;
+    color: azure;
+}
